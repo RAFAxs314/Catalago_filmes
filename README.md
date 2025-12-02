@@ -77,7 +77,7 @@ Antes de começar, você precisa ter instalado:
 
 **Passo 1: Baixar o Projeto**
 Abra o terminal (CMD no Windows) e execute:
-git clone https://github.com/seu-usuario/catalogo-filmes.git
+git clone https://github.com/RAFAxs314/Catalago_filmes.git
 
 Passo 2: Entrar na Pasta
 cd projeto
