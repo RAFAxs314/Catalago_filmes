@@ -5,11 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-<<<<<<< HEAD
-  background-color: #ffffff;
-=======
   background-color: #242424;
->>>>>>> 6f788616c33d485f189b7c2aab55f0a49a2abed8
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -70,7 +66,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 6f788616c33d485f189b7c2aab55f0a49a2abed8
