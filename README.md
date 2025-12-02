@@ -1,25 +1,94 @@
 🎬 Catálogo de Filmes: Visão Geral do Projeto Nosso site é um Catálogo de Filmes moderno, desenvolvido com React + TypeScript e construído com Vite, o que garante uma aplicação de alto desempenho e carregamento rápido. O projeto é estruturado de forma modular, com 8 componentes principais que organizam a interface e a lógica de interação.
 
-🧱 Estrutura e Componentes Chave A aplicação é dividida em componentes reutilizáveis, seguindo a filosofia do React, para gerenciar diferentes aspectos da experiência do usuário:
+👥 Componentes por Aluno
+Aluno 1 - [RAFAEL]
+**Avaliacao**: Componente visual de estrelas para notas (0-5)
 
-Estrutura de Layout: Navegação: A barra de navegação principal, responsável pelo roteamento para sessões como Home, Explorar e Minha Lista. Cabelho: Apresenta a identidade visual do site e integra o componente de busca. Rodape: Contém informações finais e links de navegação secundários. Exibição e Interação de Dados: ListasFilmes: O contêiner que recebe uma lista de filmes e os renderiza utilizando o componente CardFilme. CardFilme: A representação individual de um filme. Exibe a capacidade, o título, a duração, as categorias, a faixa etária e inclui botões para Favoritar e links para a página de detalhes.
+**Cabecalho**: Container de layout com título e busca integrada
 
-Funcionalidades de busca e filtragem:
+Aluno 2 - [DIEGO]
+**CardFilme**: Card clicável com todas informações do filme
 
-\Pesquisa: Um formulário controlado que captura o termo digitado e dispara a função de busca no sistema.
+**Filtro**: Sistema de filtros por categoria com botões
 
-\Filtro: Permite ao usuário selecionar categorias para refinar a lista de filmes exibidos.
+Aluno 3 - [JOÃO PEDRO]
+**ListasFilmes**: Grid responsivo que organiza múltiplos cards
 
-\Avaliacao: Um componente visual que traduz a nota numérica do filme em um sistema de estrelas (cheias, meias e vazias).
+**Navegacao**: Menu principal com highlight da página ativa
 
-💡 Tecnologia e Funcionalidades A aplicação utiliza hooks fundamentais do React (useState, useEffect, useLocation) para gerenciar o estado da lista de filmes, os itens favoritos e o estado ativo da navegação.
+Aluno 4 - [RIKELME]
+**Pesquisa**: Barra de busca com estado controlado
 
-O resultado é uma experiência de usuário intuitiva e eficiente, onde os usuários podem:
+**Rodape**: Rodapé com informações e links
 
-Explorar Filmes: Visualize filmes em cartões ricos em detalhes.
+📄 Páginas (5 Total)
+ Home → Filmes em destaque
 
-Buscar: Encontrar títulos rapidamente usando o componente Pesquisa.
+ Explorar → Busca + filtros
 
-Filtrar: Refina a exibição por diferentes categorias com o componente Filtro.
+ DetalhesFilme → Informações completas de cada filme
 
-Gerenciar Favoritos: Adicionar ou remover filmes de sua lista pessoal diretamente do CardFilme.
+ Minha Lista → Favoritos salvos
+
+ Sobre → Equipe + tecnologias
+
+⚛️ Hooks Utilizados (5 Total)
+Hook	Onde Usado	Finalidade
+**useState**	Pesquisa.tsx	Controlar input de busca
+**useEffect**	useArmazenamentoLocal.ts	Sincronizar localStorage
+**useMemo**	useGerenciadorFilmes.ts	Otimizar filtros
+**useLocation**	Navegacao.tsx	Highlight menu ativo
+**useArmazenamentoLocal**	App.tsx	Gerenciar favoritos (custom)
+✅ 5 hooks diferentes (mínimo: 4)
+
+🎯 Requisitos Atendidos
+Requisito	Status	Detalhes
+8+ componentes	✅	8 componentes em src/componentes/
+5 páginas	✅	5 páginas em src/paginas/
+4+ hooks	✅	5 hooks implementados
+TypeScript	✅	Todos arquivos .tsx tipados
+Roteamento	✅	React Router DOM
+Dados estáticos	✅	Mock data sem API
+GitHub público	✅	Repositório com código
+🎨 Funcionalidades
+✅ Sistema de Favoritos (localStorage)
+
+✅ Busca em tempo real (título/diretor)
+
+✅ Filtros dinâmicos por categoria
+
+✅ Avaliação visual com estrelas
+
+✅ Navegação completa entre páginas
+
+✅ Design responsivo e moderno
+
+✅ URLs amigáveis para cada filme
+
+ 🚀 Passo a Passo para Executar o Projeto
+
+📋 Pré-requisitos
+Antes de começar, você precisa ter instalado:
+ ✅ **Node.js** (versão 16 ou superior)
+ ✅ **npm** (vem com o Node.js)
+ ✅ **Git** (para clonar o repositório)
+
+🔧 Instalação Rápida
+
+**Passo 1: Baixar o Projeto**
+Abra o terminal (CMD no Windows) e execute:
+git clone https://github.com/seu-usuario/catalogo-filmes.git
+
+Passo 2: Entrar na Pasta
+cd projeto
+
+Passo 3: Instalar Dependências:
+npm install
+
+Passo 4: Iniciar o Servidor
+npm run dev
+
+Passo 5: Acessar no Navegador:
+Acesse o navegador com usando "CTRL + CLIQUE" ou copie e cole o link que ele lhe dará"
+
+
